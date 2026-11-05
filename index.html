@@ -688,35 +688,16 @@
 }
 .lokasi-note { font-size: 12.5px; color: var(--gray-text); background: var(--sky); border-radius: 10px; padding: 10px 12px; margin-top: 8px; line-height: 1.5; }
 </style>
-
- <!-- Event snippet for Pembelian conversion page -->
-<script>
-  gtag('event', 'conversion', {
-      'send_to': 'AW-18529996133/a7R9CPTKvLIdEOWa5YNF',
-      'transaction_id': ''
-      // 'new_customer': true /* calculate dynamically, populate with true/false */,
-  });
-</script>
-
-
- <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18529996133"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'AW-18529996133');
 </script>
-
 </head>
 <body>
-<!-- PAGE_T0 harus dideklarasikan PERTAMA sebelum semua script lain,
-     supaya nilai Date.now() saat halaman dimuat tersedia saat kirimForm() dipanggil.
-     Kalau dideklarasikan terlambat (di bawah), nilai t yang dikirim ke Apps Script
-     menjadi NaN sehingga semua lead DITOLAK oleh cek !(Number(d.t) >= 4000). -->
-<script>var PAGE_T0 = Date.now();</script>
-
 <!-- NAV -->
 <nav id="header">
  <a href="#header" class="logo-link" onclick="goHome();return false;" aria-label="Kembali ke beranda">
@@ -730,7 +711,7 @@
  <a href="privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a>
  </div>
  <div class="nav-cta-group">
- <a href="#daftar" onclick="bukaCekCoverage();return false;" class="nav-cta nav-cta-outline">Cek Coverage</a>
+ <a href="https://wa.me/6285935260997" target="_blank" rel="noopener noreferrer" onclick="bukaCekCoverage();return false;" class="nav-cta nav-cta-outline">Cek Coverage</a>
  </div>
 </nav>
 <div class="brand-note">Info: layanan <strong>XL SATU</strong> kini juga dikenal dengan nama <strong>XL HOME</strong>. Paket dan layanannya tetap sama.</div>
@@ -757,7 +738,7 @@
 
  <!-- QUICK LINKS -->
  <div class="quick-links" role="navigation" aria-label="Akses cepat">
-  <a class="ql-card" href="#daftar" onclick="setModeForm('daftar');goToSection('daftar');return false;">
+  <a class="ql-card" href="#paket" onclick="goToSection('paket');return false;">
    <span class="ql-icon"><svg viewBox="0 0 52 52" fill="none" stroke="#0B3D91" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="10" width="40" height="36" rx="6"/><path d="M6 20h40M16 5v9M36 5v9"/><path d="M19 33a7 7 0 0 1 12-4M33 33a7 7 0 0 1-12 4" stroke="#1F7AE0"/><path d="M31 25v4h-4M21 41v-4h4" stroke="#1F7AE0"/></svg></span>
    <span><span class="ql-title">Mau Berlangganan?</span><span class="ql-link">Daftar Sekarang <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></span></span>
   </a>
@@ -1387,55 +1368,13 @@
  </div>
  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Apakah merger antara XL dan Smartfren akan berdampak pada pelanggan atau layanan XL SATU?", "acceptedAnswer": {"@type": "Answer", "text": "Tidak perlu khawatir, saat ini layanan XL SATU tidak mengalami perubahan baik dari sisi produk, tarif/harga, benefit, channel pembayaran serta layanan pelanggan. Apabila ada pembaruan setelah merger, kami akan segera menginformasikannya secara resmi kepada pelanggan."}}, {"@type": "Question", "name": "Apakah XL SATU sama dengan XL HOME?", "acceptedAnswer": {"@type": "Answer", "text": "Ya. XL SATU kini juga dikenal dengan nama XL HOME. Layanan, paket, dan jaringannya sama. Halaman ini dikelola oleh mitra penyalur resmi dan tetap menggunakan nama XL SATU. Informasi resmi dapat dilihat di situs XL."}}, {"@type": "Question", "name": "Siapa saja yang dapat berlangganan XL SATU?", "acceptedAnswer": {"@type": "Answer", "text": "XL SATU dapat digunakan oleh pelanggan individual perumahan yang lokasi alamatnya terjangkau oleh jaringan XL SATU Fiber & XL SATU Lite.  Begitu juga bagi Anda yang memiliki bisnis, Anda dapat menggunakan XL SATU BIZ untuk bisnis Anda dan silahkan cek jangkauan Anda di halaman Homepage."}}, {"@type": "Question", "name": "Apakah saya harus punya nomor XL prabayar atau XL Prioritas untuk menikmati Kuota HP Sekeluarga-nya?", "acceptedAnswer": {"@type": "Answer", "text": "Kuota HP Sekeluarga bisa diaktifkan sebagai paket tambahan (add-on) ke nomor XL prabayar yang didaftarkan melalui akun myXL pelanggan XL SATU. Jika pelanggan belum memiliki nomor XL, paket XL SATU sudah termasuk 2 kartu perdana XL baru.  Khusus untuk pelanggan XL SATU BIZ, Anda akan mendapatkan kartu Perdana BIZ On khusus UKM, dan juga aplikasi MAJOO Starter untuk bisnis Anda."}}, {"@type": "Question", "name": "Apa saja persyaratan untuk mulai berlangganan?", "acceptedAnswer": {"@type": "Answer", "text": "Syarat berlangganan XL SATU Fiber/Lite adalah sebagai berikut: - Pastikan lokasi Anda sudah tercover oleh jaringan XL SATU Fiber/Lite/BIZ - Melengkapi formulir pendaftaran (via sales tools, via website, atau form cetak) - Melengkapi dokumen pendukung (KTP/SIM/Paspor/KITAS) - Melampirkan kontak dan alamat email yang valid  Syarat berlangganan XL SATU BIZ adalah sebagai berikut: - Pastikan lokasi Anda sudah tercover oleh jaringan XL SATU BIZ - Melengkapi formulir pendaftaran (via sales tools, via website, atau form cetak) - Melengkapi dokumen pendukung (KTP/SIM/Paspor/KITAS) - Melampirkan kontak dan alamat email yang valid - Melampirkan bukti kepemilikan usaha / foto usaha Anda"}}, {"@type": "Question", "name": "Apa saja yang dapat mempengaruhi kecepatan internet XL SATU?", "acceptedAnswer": {"@type": "Answer", "text": "Kecepatan internet yang didapatkan oleh Pelanggan bersifat “up to” dan tergantung pada beberapa faktor, di antaranya kondisi perangkat Pelanggan yang digunakan (laptop, smartphone, tablet), lokasi ONT, kondisi jaringan, dll."}}]}</script>
 
- <!-- FORMULIR PENDAFTARAN -->
- <div class="section reg-section" id="daftar">
- <div class="section-title">Daftar & Cek Ketersediaan Jaringan</div>
- <div class="section-sub">Isi data dan alamat pemasangan kamu, lalu lanjut chat WhatsApp. Membagikan titik lokasi bersifat opsional</div>
- <div class="reg-form-wrap">
- <div class="reg-mode" role="group" aria-label="Pilih keperluan">
- <button type="button" id="mode-daftar" class="active" aria-pressed="true" onclick="setModeForm('daftar')">Daftar Paket</button>
- <button type="button" id="mode-cek" aria-pressed="false" onclick="setModeForm('cek')">Cek Coverage Saja</button>
- </div>
- <form id="regForm" onsubmit="event.preventDefault(); kirimForm();">
- <label for="f-nama">Nama Lengkap</label>
- <input type="text" id="f-nama" required placeholder="Nama Lengkap">
-
- <label for="f-wa">Nomor WhatsApp Aktif</label>
- <input type="tel" id="f-wa" required placeholder="08xxxxxxxxxx">
-
- <label for="f-alamat">Alamat Lengkap Pemasangan</label>
- <div class="alamat-wrap">
- <textarea id="f-alamat" required placeholder="Ketik alamat lengkap pemasangan kamu di sini..." rows="3"></textarea>
- <button type="button" class="btn-lokasi" id="btn-lokasi" onclick="bukaPetaLokasi()"><span id="lokasi-label">Pakai Lokasi Saya</span></button>
- </div>
- <div class="lokasi-note">Berbagi lokasi <strong>tidak wajib</strong>. Cukup ketik alamat lengkap, tim kami tetap bisa cek jaringan. Tombol "Pakai Lokasi Saya" hanya bekerja kalau kamu menekannya sendiri.</div>
- <div id="lokasi-error" style="display:none;color:#dc2626;font-size:12.5px;margin-top:6px;"></div>
- <div id="maps-link-wrap" style="display:none;margin-top:8px;">
- <a id="maps-link" href="#" target="_blank" rel="noopener noreferrer" style="font-size:13px;color:var(--blue);font-weight:600;">Lihat titik lokasi di Google Maps</a>
- </div>
-
- <label id="paket-chosen-label">Paket yang Diminati (opsional)</label>
- <input type="hidden" id="f-paket" value="">
- <div id="paket-chosen-box" style="border:1.5px dashed var(--blue);border-radius:10px;padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:var(--sky);">
- <span id="paket-chosen-text" style="font-size:14px;color:var(--gray-text);">Belum pilih paket? Tidak apa-apa, kamu tetap bisa lanjut ke WhatsApp dan tim kami bantu rekomendasikan. Atau klik salah satu paket di atas.</span>
- <a href="#paket" onclick="goToSection('paket');return false;" style="font-size:13px;font-weight:700;color:var(--blue);white-space:nowrap;">Lihat &amp; Pilih Paket</a>
- </div>
-
- <div style="position:absolute;left:-9999px;" aria-hidden="true"><label for="f-website">Website</label><input type="text" id="f-website" name="website" tabindex="-1" autocomplete="off"></div>
- <label style="display:flex;gap:8px;align-items:flex-start;font-weight:400;font-size:13px;margin-top:14px;"><input type="checkbox" id="f-setuju" style="margin-top:3px;width:auto;"><span>Saya setuju dengan <a href="privacy-policy.html" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;">kebijakan privasi</a></span></label>
- <button type="submit" class="form-submit reg-submit" id="regSubmitBtn">Daftar &amp; Lanjut ke WhatsApp</button>
- </form>
- </div>
- </div>
-
-
  <!-- VIDEO XL SATU (lazy: video baru diunduh saat tombol play ditekan) -->
  <section class="vid-section" id="video" aria-labelledby="vid-title">
   <div class="vid-inner">
    <div class="vid-text">
     <div class="section-title" id="vid-title">Kenalan dengan XL SATU</div>
     <p>Lihat sekilas layanan internet rumah XL SATU: koneksi fiber stabil untuk streaming, kerja, dan belajar seisi rumah.</p>
-    <a class="vid-cta" href="#daftar" onclick="goToSection('daftar');return false;">Daftar Sekarang</a>
+    <a class="vid-cta" href="#paket" onclick="goToSection('paket');return false;">Pilih Paket</a>
    </div>
    <div class="vid-frame" id="vidFrame" data-src="video/xl-home.mp4">
     <img class="vid-poster" src="video/xl-home-poster.jpg" alt="Video tentang XL SATU" width="360" height="640" loading="lazy" decoding="async">
@@ -1454,7 +1393,7 @@
     <details class="faq-item"><summary>Apa itu XL SATU?</summary><p>XL SATU adalah layanan internet WiFi rumah dari XL untuk kebutuhan keluarga, tersedia dalam pilihan FWA dan FTTH sesuai ketersediaan di alamat kamu.</p></details>
     <details class="faq-item"><summary>Apakah XL SATU sama dengan XL HOME?</summary><p>Ya. XL SATU kini juga dikenal dengan nama XL HOME. Layanan, paket, dan jaringannya sama. Kami tetap memakai nama XL SATU di halaman ini.</p></details>
     
-    <details class="faq-item"><summary>Siapa saja yang dapat berlangganan XL SATU?</summary><p>Siapa saja yang berada di area yang sudah terjangkau jaringan XL SATU dapat berlangganan. Cek ketersediaan lewat form pendaftaran di atas.</p></details>
+    <details class="faq-item"><summary>Siapa saja yang dapat berlangganan XL SATU?</summary><p>Siapa saja yang berada di area yang sudah terjangkau jaringan XL SATU dapat berlangganan. Cek ketersediaan lewat tombol Cek Coverage atau chat WhatsApp kami.</p></details>
     <details class="faq-item"><summary>Apakah saya harus punya nomor XL prabayar atau XL Prioritas untuk menikmati Kuota HP Sekeluarga nya?</summary><p>Untuk detail syarat Kuota HP Sekeluarga, silakan hubungi Sales Center atau tim kami lewat WhatsApp.</p></details>
     <details class="faq-item"><summary>Apa saja yang dapat mempengaruhi kecepatan internet XL SATU?</summary><p>Kecepatan dipengaruhi oleh jarak perangkat ke modem/router, jumlah perangkat yang terhubung, kondisi sinyal di lokasi, dan jenis perangkat yang dipakai.</p></details>
     <a class="faq-more" href="https://home.xl.co.id" target="_blank" rel="noopener noreferrer">Lihat Pertanyaan Lainnya!</a>
@@ -1473,7 +1412,7 @@
      <div class="help-btns">
       <a class="help-btn xl" href="tel:820"><svg viewBox="0 0 48 48" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 8h5l3 8-4 3a22 22 0 0 0 10 10l3-4 8 3v5a4 4 0 0 1-4 4C22 37 11 26 11 12a4 4 0 0 1 4-4z"/><path d="M30 8a10 10 0 0 1 10 10M30 14a4 4 0 0 1 4 4"/></svg><span><small>Pengguna XL</small><strong>820</strong></span></a>
       <a class="help-btn non" href="tel:08170123442"><svg viewBox="0 0 48 48" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 8h5l3 8-4 3a22 22 0 0 0 10 10l3-4 8 3v5a4 4 0 0 1-4 4C22 37 11 26 11 12a4 4 0 0 1 4-4z"/><path d="M30 8a10 10 0 0 1 10 10M30 14a4 4 0 0 1 4 4"/></svg><span><small>Pengguna Non-XL</small><strong>0817 0123 442</strong></span></a>
-      <a class="help-btn chat" href="#daftar" onclick="goToSection('daftar');return false;"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#25D366"/><path d="M14 35l1.8-6.2A10.5 10.5 0 1 1 20 33l-6 2z" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/><path d="M20 19c0 5 4 9 9 9l1.5-2-3-1.5-1.2 1c-1.5-.6-2.6-1.7-3.2-3.2l1-1.2-1.5-3z" fill="#fff"/></svg><span>Chat WA Sales</span></a>
+      <a class="help-btn chat" href="https://wa.me/6285935260997?text=Halo%2C%20saya%20tertarik%20dengan%20paket%20XL%20HOME.%20Boleh%20minta%20info%20promo%20dan%20ketersediaan%20di%20area%20saya%3F" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#25D366"/><path d="M14 35l1.8-6.2A10.5 10.5 0 1 1 20 33l-6 2z" fill="none" stroke="#fff" stroke-width="2.4" stroke-linejoin="round"/><path d="M20 19c0 5 4 9 9 9l1.5-2-3-1.5-1.2 1c-1.5-.6-2.6-1.7-3.2-3.2l1-1.2-1.5-3z" fill="#fff"/></svg><span>Chat WA Sales</span></a>
      </div>
      <img class="help-agent" src="images/cs-agent.webp" alt="Customer Service XL SATU siap membantu" loading="lazy" width="260" height="310">
     </div>
@@ -1498,28 +1437,6 @@
  </section>
 
 </div><!-- end page-home -->
-
-<!-- POPUP PILIH TITIK LOKASI -->
-<div id="peta-overlay" role="dialog" aria-modal="true" aria-labelledby="peta-title" onclick="if(event.target===this)tutupPeta()">
-  <div class="peta-modal">
-    <button type="button" class="peta-close" onclick="tutupPeta()" aria-label="Tutup">&times;</button>
-    <h3 id="peta-title">Tentukan Titik Lokasi Pemasangan</h3>
-    <div class="peta-sub">Geser pin atau tap di peta untuk menentukan lokasi yang tepat.</div>
-    <div class="peta-box">
-      <div class="peta-search">
-        <input type="text" id="peta-search-input" placeholder="Cari alamat atau nama tempat..." autocomplete="off">
-        <button type="button" onclick="cariAlamatPeta()">Cari</button>
-      </div>
-      <div id="peta-canvas"></div>
-      <button type="button" class="peta-locate" onclick="petaLokasiSaya()" aria-label="Lokasi saya">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0033A0" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="8"/><path d="M12 1v3M12 20v3M1 12h3M20 12h3"/></svg>
-      </button>
-    </div>
-    <div class="peta-hint">Pastikan pin tepat di lokasi pemasangan agar pengecekan jaringan akurat.</div>
-    <div class="peta-err" id="peta-err"></div>
-    <button type="button" class="peta-confirm" id="peta-confirm" onclick="konfirmasiPeta()" disabled>Konfirmasi Lokasi</button>
-  </div>
-</div>
 
 <!-- PRIVACY PAGE -->
 <div id="page-privacy">
@@ -1572,7 +1489,7 @@
  <div class="footer-col">
  <h4>Navigasi</h4>
  <a href="#paket" onclick="goToSection('paket');return false;">Paket Internet</a>
- <a href="#daftar" onclick="goToSection('daftar');return false;">Daftar</a>
+ <a href="#paket" onclick="goToSection('paket');return false;">Daftar</a>
  <a href="blog.html">Blog</a>
  <a href="#bantuan" onclick="goToSection('bantuan');return false;">Hubungi Kami</a>
  <a href="privacy-policy.html" target="_blank" rel="noopener">Kebijakan Privasi</a>
@@ -1650,349 +1567,19 @@
     window.scrollTo(0, 0);
   }
 
-  // ── Pilih paket dari card → scroll ke form + select paket ──
-  function pilihPaket(paketVal) {
-    goToSection('daftar');
-    setTimeout(function() {
-      const hidden = document.getElementById('f-paket');
-      const box    = document.getElementById('paket-chosen-box');
-      const txt    = document.getElementById('paket-chosen-text');
-      if (hidden && paketVal) {
-        hidden.value = paketVal;
-        if (txt) txt.innerHTML = 'Paket dipilih: <strong>' + paketVal + '</strong>';
-        if (box) {
-          box.style.borderStyle = 'solid';
-          box.style.borderColor = 'var(--teal)';
-          box.style.boxShadow   = '0 0 0 3px rgba(0,167,157,0.15)';
-          setTimeout(function() { box.style.boxShadow = ''; }, 2000);
-        }
-      }
-      var nama = document.getElementById('f-nama');
-      if (nama && !nama.value) nama.focus();
-
-      // Kalau masuk lewat tombol "Cek Coverage", sorot juga tombol deteksi lokasi
-      if (paketVal.indexOf('Cek Coverage') === 0) {
-        var wrap = document.querySelector('.alamat-wrap');
-        if (wrap) {
-          wrap.style.boxShadow = '0 0 0 3px rgba(0,51,160,0.15)';
-          wrap.style.borderRadius = '10px';
-          setTimeout(function() { wrap.style.boxShadow = ''; }, 2000);
-        }
-      }
-    }, 650);
-  }
-
-  // ── Popup peta: tentukan titik lokasi (Google Maps) ──
-  // Isi API key Google Maps (aktifkan Maps JavaScript API + Geocoding API).
-  // Kalau kosong, tombol "Pakai Lokasi Saya" otomatis memakai deteksi GPS biasa.
-  const GMAPS_API_KEY = 'ISI_API_KEY_GOOGLE_MAPS_DI_SINI';
-  const __pm = { map: null, marker: null, geocoder: null, lat: null, lng: null, addr: '', loading: null };
-
-  function petaError(msg) {
-    const el = document.getElementById('peta-err');
-    el.textContent = msg || '';
-    el.style.display = msg ? 'block' : 'none';
-  }
-
-  function muatGoogleMaps() {
-    if (window.google && google.maps && google.maps.Map) return Promise.resolve();
-    if (__pm.loading) return __pm.loading;
-    __pm.loading = new Promise(function (resolve, reject) {
-      window.__gmapsReady = resolve;
-      window.gm_authFailure = function () { petaError('API key Google Maps tidak valid atau belum diaktifkan.'); };
-      const sc = document.createElement('script');
-      sc.src = 'https://maps.googleapis.com/maps/api/js?key=' + encodeURIComponent(GMAPS_API_KEY) + '&callback=__gmapsReady&loading=async&language=id&region=ID';
-      sc.async = true;
-      sc.onerror = function () { __pm.loading = null; reject(new Error('gmaps')); };
-      document.head.appendChild(sc);
-    });
-    return __pm.loading;
-  }
-
-  function bukaPetaLokasi() {
-    if (!GMAPS_API_KEY || GMAPS_API_KEY.indexOf('ISI_') === 0) { deteksiLokasi(); return; }
-    petaError('');
-    document.getElementById('peta-overlay').classList.add('open');
-    document.body.style.overflow = 'hidden';
-    muatGoogleMaps().then(initPeta).catch(function () {
-      tutupPeta();
-      deteksiLokasi(); // fallback kalau Google Maps gagal dimuat
-    });
-  }
-
-  function tutupPeta() {
-    document.getElementById('peta-overlay').classList.remove('open');
-    document.body.style.overflow = '';
-  }
-
-  function initPeta() {
-    if (!__pm.map) {
-      const start = { lat: -6.2088, lng: 106.8456 }; // Jakarta
-      __pm.geocoder = new google.maps.Geocoder();
-      __pm.map = new google.maps.Map(document.getElementById('peta-canvas'), {
-        center: start, zoom: 12, disableDefaultUI: true, zoomControl: true,
-        gestureHandling: 'greedy', clickableIcons: false
-      });
-      __pm.marker = new google.maps.Marker({ map: __pm.map, position: start, draggable: true, visible: false });
-      __pm.map.addListener('click', function (e) { setPinPeta(e.latLng, false); });
-      __pm.marker.addListener('dragend', function (e) { setPinPeta(e.latLng, false); });
-      document.getElementById('peta-search-input').addEventListener('keydown', function (e) {
-        if (e.key === 'Enter') { e.preventDefault(); cariAlamatPeta(); }
-      });
-    } else {
-      google.maps.event.trigger(__pm.map, 'resize');
-      if (__pm.lat !== null) __pm.map.setCenter({ lat: __pm.lat, lng: __pm.lng });
-    }
-    // Tidak lagi meminta GPS otomatis; lokasi hanya diminta saat user menekan tombol "Lokasi saya"
-  }
-
-  function setPinPeta(latLng, pan) {
-    __pm.lat = latLng.lat();
-    __pm.lng = latLng.lng();
-    __pm.marker.setPosition(latLng);
-    __pm.marker.setVisible(true);
-    if (pan) { __pm.map.panTo(latLng); if (__pm.map.getZoom() < 17) __pm.map.setZoom(17); }
-    document.getElementById('peta-confirm').disabled = false;
-    petaError('');
-    __pm.addr = __pm.lat.toFixed(6) + ', ' + __pm.lng.toFixed(6);
-    const box = document.getElementById('peta-search-input');
-    box.value = __pm.addr;
-    __pm.geocoder.geocode({ location: latLng, language: 'id' }, function (res, status) {
-      if (status === 'OK' && res && res[0]) {
-        __pm.addr = res[0].formatted_address;
-        box.value = __pm.addr;
-      }
-    });
-  }
-
-  function petaLokasiSaya(silent) {
-    if (!navigator.geolocation) { if (!silent) petaError('Browser kamu tidak mendukung GPS.'); return; }
-    navigator.geolocation.getCurrentPosition(
-      function (pos) { setPinPeta(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude), true); },
-      function () { if (!silent) petaError('Lokasi tidak terdeteksi. Cari alamat atau tap di peta untuk memilih titik.'); },
-      { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
-    );
-  }
-
-  function cariAlamatPeta() {
-    const q = document.getElementById('peta-search-input').value.trim();
-    if (!q || !__pm.geocoder) return;
-    __pm.geocoder.geocode({ address: q, region: 'ID', language: 'id' }, function (res, status) {
-      if (status === 'OK' && res && res[0]) setPinPeta(res[0].geometry.location, true);
-      else petaError('Alamat tidak ditemukan. Coba kata kunci lain atau tap langsung di peta.');
-    });
-  }
-
-  function konfirmasiPeta() {
-    if (__pm.lat === null) return;
-    document.getElementById('f-alamat').value = __pm.addr;
-    const mapLink = document.getElementById('maps-link');
-    mapLink.href = 'https://www.google.com/maps?q=' + __pm.lat.toFixed(6) + ',' + __pm.lng.toFixed(6);
-    document.getElementById('maps-link-wrap').style.display = 'block';
-    document.getElementById('lokasi-error').style.display = 'none';
-    const btn = document.getElementById('btn-lokasi'), label = document.getElementById('lokasi-label');
-    btn.classList.add('success');
-    label.innerHTML = '✓ Lokasi terpilih';
-    setTimeout(function () { btn.classList.remove('success'); label.innerHTML = 'Pakai Lokasi Saya'; }, 3000);
-    tutupPeta();
-  }
-
-  document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape' && document.getElementById('peta-overlay').classList.contains('open')) tutupPeta();
-  });
-
-  // ── Deteksi Lokasi GPS ──
-  function deteksiLokasi() {
-    const btn     = document.getElementById('btn-lokasi');
-    const label   = document.getElementById('lokasi-label');
-    const input   = document.getElementById('f-alamat');
-    const errEl   = document.getElementById('lokasi-error');
-    const mapWrap = document.getElementById('maps-link-wrap');
-    const mapLink = document.getElementById('maps-link');
-
-    if (!navigator.geolocation) {
-      errEl.textContent = 'Browser kamu tidak mendukung GPS. Isi alamat manual.';
-      errEl.style.display = 'block';
-      return;
-    }
-
-    btn.classList.add('loading');
-    label.innerHTML = '<span class="spin">⟳</span> Mencari lokasi...';
-    errEl.style.display  = 'none';
-    mapWrap.style.display = 'none';
-
-    navigator.geolocation.getCurrentPosition(
-      function(pos) {
-        const lat = pos.coords.latitude.toFixed(6);
-        const lng = pos.coords.longitude.toFixed(6);
-        const acc = Math.round(pos.coords.accuracy);
-
-        fetch('https://nominatim.openstreetmap.org/reverse?lat=' + lat + '&lon=' + lng + '&format=json&addressdetails=1&accept-language=id')
-          .then(r => r.json())
-          .then(data => {
-            const a = data.address || {};
-            const parts = [
-              a.road || a.pedestrian || a.footway || '',
-              a.suburb || a.neighbourhood || a.village || '',
-              a.city_district || a.district || '',
-              a.city || a.town || a.county || '',
-              a.state || ''
-            ].filter(Boolean);
-            input.value = parts.join(', ') + (acc > 100 ? ' (akurasi ±' + acc + 'm, mohon verifikasi)' : '');
-            const mapsUrl = 'https://www.google.com/maps?q=' + lat + ',' + lng;
-            mapLink.href = mapsUrl;
-            mapWrap.style.display = 'block';
-            btn.classList.remove('loading');
-            btn.classList.add('success');
-            label.innerHTML = '✓ Alamat terisi';
-            setTimeout(() => { btn.classList.remove('success'); label.innerHTML = 'Pakai Lokasi Saya'; }, 3000);
-          })
-          .catch(() => {
-            input.value = 'Koordinat: ' + lat + ', ' + lng;
-            const mapsUrl = 'https://www.google.com/maps?q=' + lat + ',' + lng;
-            mapLink.href = mapsUrl;
-            mapWrap.style.display = 'block';
-            btn.classList.remove('loading');
-            btn.classList.add('success');
-            label.innerHTML = '✓ Alamat terisi';
-            setTimeout(() => { btn.classList.remove('success'); label.innerHTML = 'Pakai Lokasi Saya'; }, 3000);
-          });
-      },
-      function(err) {
-        btn.classList.remove('loading');
-        label.innerHTML = 'Pakai Lokasi Saya';
-        const msgs = { 1: 'Izin lokasi ditolak. Aktifkan izin lokasi di browser.', 2: 'Lokasi tidak terdeteksi. Coba lagi atau isi manual.', 3: 'Timeout. Coba lagi atau isi manual.' };
-        errEl.textContent  = msgs[err.code] || 'Gagal mendeteksi lokasi.';
-        errEl.style.display = 'block';
-      },
-      { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
-    );
-  }
-
-  // ── Mode form: Daftar Paket vs Cek Coverage Saja ──
-  window.__modeForm = 'daftar';
-  function setModeForm(mode) {
-    const cek = (mode === 'cek');
-    window.__modeForm = cek ? 'cek' : 'daftar';
-    const paketLbl = document.getElementById('paket-chosen-label');
-    const paketBox = document.getElementById('paket-chosen-box');
-    if (paketLbl) paketLbl.style.display = cek ? 'none' : '';
-    if (paketBox) paketBox.style.display = cek ? 'none' : '';
-    document.getElementById('mode-daftar').classList.toggle('active', !cek);
-    document.getElementById('mode-cek').classList.toggle('active', cek);
-    document.getElementById('mode-daftar').setAttribute('aria-pressed', String(!cek));
-    document.getElementById('mode-cek').setAttribute('aria-pressed', String(cek));
-    const sub = document.querySelector('#daftar .section-sub');
-    if (sub) sub.textContent = cek
-      ? 'Cukup isi nama, WhatsApp, dan alamat. Tim kami cek jangkauan di alamatmu dan kabari paket yang tersedia, tanpa perlu daftar dulu'
-      : 'Isi data dan alamat pemasangan kamu, lalu lanjut chat WhatsApp. Membagikan titik lokasi bersifat opsional';
-    document.getElementById('regSubmitBtn').innerHTML = cek ? 'Cek Coverage via WhatsApp' : 'Daftar &amp; Lanjut ke WhatsApp';
-  }
-
-  // Tombol "Cek Coverage": buka mode cek dan scroll ke form (lokasi TIDAK diminta otomatis)
-  function bukaCekCoverage() {
-    setModeForm('cek');
-    goToSection('daftar');
-    setTimeout(function () {
-      const nama = document.getElementById('f-nama');
-      if (nama && !nama.value) nama.focus({ preventScroll: true });
-    }, 700);
-  }
-
-  // ── Simpan info klik iklan (gclid/gbraid/wbraid) dari URL ──
-  // Dipindahkan ke sini (sebelum kirimForm) supaya getClickId() sudah terdefinisi
-  // saat kirimForm() dipanggil. Sebelumnya ada di bawah sehingga kirimForm selalu
-  // mendapat { gclid:'', gbraid:'', wbraid:'' } karena guard typeof gagal.
-  (function captureClickId() {
+  // ── Pilih paket -> langsung buka WhatsApp ──
+  var WA_NUM = '6285935260997';
+  function bukaWA(teks) {
     try {
-      const params = new URLSearchParams(window.location.search);
-      const ids = { gclid: params.get('gclid'), gbraid: params.get('gbraid'), wbraid: params.get('wbraid') };
-      const now = Date.now();
-      const TTL = 90 * 24 * 60 * 60 * 1000; // 90 hari
-      Object.keys(ids).forEach(function (key) {
-        if (ids[key]) { localStorage.setItem(key, ids[key]); localStorage.setItem(key + '_t', now); }
-      });
-      ['gclid', 'gbraid', 'wbraid'].forEach(function (key) {
-        const t = +localStorage.getItem(key + '_t') || 0;
-        if (t && now - t > TTL) { localStorage.removeItem(key); localStorage.removeItem(key + '_t'); }
-      });
+      if (typeof gtag === 'function') gtag('event', 'conversion', { 'send_to': 'AW-18529996133/a7R9CPTKvLIdEOWa5YNF', 'transaction_id': '' });
     } catch (e) {}
-  })();
-  function getClickId() {
-    try {
-      return {
-        gclid:  localStorage.getItem('gclid')  || '',
-        gbraid: localStorage.getItem('gbraid') || '',
-        wbraid: localStorage.getItem('wbraid') || ''
-      };
-    } catch (e) { return { gclid: '', gbraid: '', wbraid: '' }; }
+    window.open('https://wa.me/' + WA_NUM + '?text=' + encodeURIComponent(teks), '_blank', 'noopener,noreferrer');
   }
-
-  // ── FORM KIRIM → WA ──
-  function kirimForm() {
-    const nama   = document.getElementById('f-nama').value.trim();
-    const wa     = document.getElementById('f-wa').value.trim();
-    const alamat = document.getElementById('f-alamat').value.trim();
-    const cekOnly = (window.__modeForm === 'cek');
-    const paketDipilih = document.getElementById('f-paket').value;
-    const belumPilih = !cekOnly && !paketDipilih;
-    const paket  = cekOnly ? 'Cek Coverage — belum tahu paketnya' : (paketDipilih || 'Belum memilih paket — mohon rekomendasi');
-    const mapLink = document.getElementById('maps-link');
-    const mapsHref = (mapLink && mapLink.href && !mapLink.href.endsWith('#')) ? mapLink.href : '';
-
-    if (!nama || !wa || !alamat) {
-      alert('Mohon lengkapi semua field terlebih dahulu.');
-      return;
-    }
-    if (document.getElementById('f-website').value) return; // honeypot: bot
-    if (Date.now() - PAGE_T0 < 4000) { alert('Mohon tunggu sebentar, lalu kirim lagi.'); return; }
-    if (!document.getElementById('f-setuju').checked) { alert('Mohon centang persetujuan penggunaan data.'); return; }
-    if (!/^(\+62|62|0)8\d{8,12}$/.test(wa.replace(/[\s-]/g, ''))) { alert('Nomor WhatsApp tidak valid. Contoh: 08123456789'); return; }
-    if (nama.length > 100 || alamat.length > 300) { alert('Nama atau alamat terlalu panjang.'); return; }
-    try { const last = +localStorage.getItem('lastSubmit') || 0; if (Date.now() - last < 30000) { alert('Tunggu 30 detik sebelum mengirim lagi.'); return; } localStorage.setItem('lastSubmit', Date.now()); } catch (e) {}
-
-    const tglFormatted = '-';
-
-    const submitBtn = document.querySelector('.form-submit');
-    const oriHTML   = submitBtn.innerHTML;
-    submitBtn.disabled = true;
-    submitBtn.innerHTML = '<span class="spin">⟳</span>&nbsp; Mengirim...';
-
-    // 2. Buka WA DULU (harus dipanggil langsung dari user gesture, sebelum fetch async)
-    //    Kalau dipanggil setelah fetch, browser menganggapnya bukan user gesture → popup diblokir.
-    const pesan = (cekOnly || belumPilih) ?
-      'Halo, saya ingin cek ketersediaan jaringan XL SATU (Fiber/FWA) di alamat saya:%0A%0A' +
-      '*Nama:* '             + encodeURIComponent(nama)         + '%0A' +
-      '*No. WA:* '           + encodeURIComponent(wa)           + '%0A' +
-      '*Alamat:* '           + encodeURIComponent(alamat)       + '%0A' +
-      (mapsHref ? '*Lokasi Maps:* ' + encodeURIComponent(mapsHref) + '%0A' : '') +
-      (belumPilih ? '%0ASaya belum memilih paket. Mohon dicek coverage-nya dan dibantu rekomendasi paket yang sesuai di alamat ini. Terima kasih!' : '%0AMohon dicek coverage-nya dan paket apa yang tersedia di alamat ini. Terima kasih!') :
-      'Halo, saya ingin mendaftar paket XL SATU:%0A%0A' +
-      '*Nama:* '             + encodeURIComponent(nama)         + '%0A' +
-      '*No. WA:* '           + encodeURIComponent(wa)           + '%0A' +
-      '*Alamat:* '           + encodeURIComponent(alamat)       + '%0A' +
-      (mapsHref ? '*Lokasi Maps:* ' + encodeURIComponent(mapsHref) + '%0A' : '') +
-      '*Paket:* '            + encodeURIComponent(paket)        + '%0A%0A' +
-      'Mohon info ketersediaan dan proses selanjutnya. Terima kasih!';
-
-    window.open('https://wa.me/6285935260997?text=' + pesan, '_blank', 'noopener,noreferrer');
-
-    submitBtn.disabled = false;
-    submitBtn.innerHTML = oriHTML;
-
-    // 3. Reset form
-    setTimeout(() => {
-      document.getElementById('f-nama').value    = '';
-      document.getElementById('f-wa').value      = '';
-      document.getElementById('f-alamat').value  = '';
-      document.getElementById('f-paket').value   = '';
-      const paketTxt = document.getElementById('paket-chosen-text');
-      const paketBox2 = document.getElementById('paket-chosen-box');
-      if (paketTxt) paketTxt.textContent = 'Belum pilih paket? Tidak apa-apa, kamu tetap bisa lanjut ke WhatsApp dan tim kami bantu rekomendasikan. Atau klik salah satu paket di atas.';
-      if (paketBox2) { paketBox2.style.borderStyle = 'dashed'; paketBox2.style.borderColor = 'var(--blue)'; }
-      setModeForm('daftar');
-      document.getElementById('maps-link-wrap').style.display = 'none';
-    }, 800);
+  function pilihPaket(paketVal) {
+    bukaWA('Halo, saya tertarik berlangganan paket XL SATU:\n\n*Paket:* ' + paketVal + '\n\nMohon info ketersediaan di area saya dan proses selanjutnya. Terima kasih!');
+  }
+  function bukaCekCoverage() {
+    bukaWA('Halo, saya ingin cek ketersediaan jaringan XL SATU (Fiber/FWA) di alamat saya.\n\n*Nama:* \n*Alamat lengkap:* \n\nMohon dibantu cek coverage dan paket yang tersedia. Terima kasih!');
   }
 
   (function() {
@@ -2008,9 +1595,8 @@
   // (select_package, faq_open, generate_lead, nudge_click) tidak error, tapi tidak mengirim apa pun ke luar.
   function trackEvt() {}
 
-  const _pilih = pilihPaket, _kirim = kirimForm;
+  const _pilih = pilihPaket;
   pilihPaket = function (p) { trackEvt('select_package', { package: p }); return _pilih.apply(this, arguments); };
-  kirimForm  = function () { trackEvt('generate_lead', { package: (document.getElementById('f-paket') || {}).value }); return _kirim.apply(this, arguments); };
   document.querySelectorAll('.faq details').forEach(d => d.addEventListener('toggle', () => {
     if (d.open) trackEvt('faq_open', { question: d.querySelector('summary').textContent });
   }));
@@ -2057,10 +1643,8 @@
       var b = document.querySelectorAll('#tabsBar .tab')[tabs[s]];
       if (b) switchTab(s, b);
       goToSection('paket');
-    } else if (s === 'cekarea') {
-      setModeForm('cek'); goToSection('daftar');
-    } else if (s === 'daftar') {
-      goToSection('daftar');
+    } else if (s === 'cekarea' || s === 'daftar') {
+      goToSection('paket');
     } else if (s === 'faq') {
       goToSection('faq');
     }
